@@ -403,3 +403,7 @@ k8sClusterDomain: cluster.local
 
 # Add labels to all the deployed resources
 commonLabels: {}
+
+# Extra files to include in the config.
+includes:
+  - subject-mappings.conf

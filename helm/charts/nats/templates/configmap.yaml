@@ -428,3 +428,7 @@ data:
     {{- end }}
 
     {{- end }}
+
+    {{- range .Values.includes }}
+    include "./{{ . }}"
+    {{- end }}
